@@ -1,7 +1,10 @@
 #!/bin/bash
 
-if [ "$TRAVIS_BRANCH" == "b1" ]; then
+echo "BRANCH is $TRAVIS_BRANCH"
+echo "COMMIT MSG is $TRAVIS_COMMIT_MESSAGE"
+
+case "$TRAVIS_COMMIT_MESSAGE" in Prepare*)
   exit 0
-else
-  exit 1
-fi
+esac
+
+exit 1
