@@ -3,8 +3,8 @@
 echo "BRANCH is $TRAVIS_BRANCH"
 echo "COMMIT MSG is $TRAVIS_COMMIT_MESSAGE"
 
-case "$TRAVIS_COMMIT_MESSAGE" in Prepare*)
+if [ -f ./file.txt ]; then
   exit 0
-esac
+fi
 
 exit 1
