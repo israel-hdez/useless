@@ -1,0 +1,5 @@
+VAR = 1
+VAR2 = 1
+VERSION ?= v0.19.0-SNAPSHOT
+VAR3 = 2
+
