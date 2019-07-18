@@ -1,4 +1,4 @@
 checks:
   pr:
     force_reviewers:
-      - users: ['@edgarHzg', 'israel-hdez']
+      - users: ['@edgarHzg', '@israel-hdez']
