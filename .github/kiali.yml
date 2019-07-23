@@ -1,5 +1,7 @@
+other:
+  calc: true
 checks:
   enabled: true
-  pr:
-    force_reviewers:
-      - users: ['@edgarHzg', '@israel-hdez']
+  pull_requests:
+    required_approvals:
+      - ['@edgarHzg', '@israel-hdez']
