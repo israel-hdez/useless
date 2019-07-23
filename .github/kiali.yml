@@ -1,4 +1,5 @@
 checks:
+  enabled: true
   pr:
     force_reviewers:
       - users: ['@edgarHzg', '@israel-hdez']
