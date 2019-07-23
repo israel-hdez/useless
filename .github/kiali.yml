@@ -3,4 +3,4 @@ other:
 checks:
   pull_requests:
     required_approvals:
-      - [edgarHzg2, israel-hdez2]
+      - [edgarHzg, israel-hdez]
