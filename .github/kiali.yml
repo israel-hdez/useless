@@ -1,7 +1,6 @@
 other:
   calc: true
 checks:
-  enabled: true
   pull_requests:
     required_approvals:
-      - ['@edgarHzg', '@israel-hdez']
+      - [edgarHzg, israel-hdez]
