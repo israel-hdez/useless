@@ -4,3 +4,5 @@ checks:
   pull_requests:
     required_approvals:
       - [edgarHzg, israel-hdez]
+      - jay
+      - [gbau, matt]
